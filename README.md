@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+# Insta_Spots_Assignment
+This is the second semester assignment for Tinyuka 2024 cohort. Replicated a dummy social media webpage using React. 
+=======
+>>>>>>> 7432d34 (Fixed href warning for deployment)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +75,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<<<<<<< HEAD
+=======
+>>>>>>> 57a651c (Adding React Components for Insta Spots Replicate)
+>>>>>>> 7432d34 (Fixed href warning for deployment)
