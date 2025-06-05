@@ -6,7 +6,7 @@ import avatar from './assets/images/image 2.svg';
 import pencil from './assets/icons/pencil.svg';
 import valThorens from "./assets/images/Vol-.Thoren.svg";
 import restaurant from "./assets/images/Restauurant.svg";
-import cafe from "./assets/pexels-kassandre-pedro-8639743 1 (2).svg";
+import cafe from "./assets/images/An outdoor cafe.svg";
 import bridge from "./assets/images/Long-Bridg.svg";
 import tunnel from "./assets/images/Tunnel-.svg";
 import mountainHouse from "./assets/images/Mountain-House.svg";
