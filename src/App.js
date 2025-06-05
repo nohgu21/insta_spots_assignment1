@@ -117,13 +117,14 @@ function DisplayCards () {
           <div className="bio">
             <h2>{profile.name}</h2>
             <p className="title">{profile.title}</p>
-            <a href="#" className="edit-profile" onClick={(e) => {
+            <a href="javascript:void(0);" className="edit-profile" onClick={(e) => {
               e.preventDefault();
               setShowEditModal(true);
             }}>
-            <img src={pencil} alt="pencil" />
+              <img src={pencil} alt="pencil" />
               Edit Profile
             </a>
+
           </div>
 
           <div className="btn-section">
