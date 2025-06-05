@@ -6,7 +6,7 @@ import avatar from './assets/images/image 2.svg';
 import pencil from './assets/icons/pencil.svg';
 import valThorens from "./assets/images/Vol-.Thoren.svg";
 import restaurant from "./assets/images/Restauurant.svg";
-import cafe from "./assets/images/An outdoor cafe.svg";
+import cafe from "./assets/images/pexels-kassandre-pedro-8639743 1 (2).svg";
 import bridge from "./assets/images/Long-Bridg.svg";
 import tunnel from "./assets/images/Tunnel-.svg";
 import mountainHouse from "./assets/images/Mountain-House.svg";
@@ -93,14 +93,6 @@ function DisplayCards () {
     });
   }
 
-//   function toggleHeart(index) {
-//     setLikedPosts(prev => ({
-//       ...prev,
-//       [index]: !prev[index] 
-//     }));
-// }
-
-
   return (
     <div className='main-container'>
       <div className='header'>
@@ -163,9 +155,16 @@ function DisplayCards () {
       <hr className="card-divider" />
 
       <Modal isOpen={!!imagePreview.image} onClose={() => setImagePreview({ image: null, title: "" })}>
-        <div style={{ textAlign: 'center' }}>
+        <div style={{ textAlign: 'left' }}>
           <img src={imagePreview.image} alt="Preview" style={{ width: '100%', borderRadius: '10px' }} />
-          <p>{imagePreview.title}</p>
+          <div className="modal-label">
+            <p>{imagePreview.title}</p>
+            <i
+            className={likedPosts[imagePreview.title] ? "fa-solid fa-heart like-btn" : "fa-regular fa-heart like-btn"}
+            aria-label="Like button"
+            onClick={() => toggleHeart(imagePreview.title)}
+            ></i>
+          </div>
         </div>
       </Modal>
 

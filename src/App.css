@@ -132,6 +132,14 @@ body {
   font-weight: bold;
 }
 
+.modal-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  width: 100%; 
+}
+
+
 .modal-overlay {
   position: fixed;
   top: 0;
